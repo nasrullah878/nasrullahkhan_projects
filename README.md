@@ -1,2 +1,2 @@
 # py
-this about python
+this is all  about python
