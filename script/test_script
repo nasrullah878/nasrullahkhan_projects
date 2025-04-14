@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo  enter a and b
+read a
+read b
+sum=$((a+b))
+
+echo sum is $sum
