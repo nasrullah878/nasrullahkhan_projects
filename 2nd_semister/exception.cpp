@@ -20,7 +20,7 @@ int main() {
     }
 
     // 3. Continue normally
-    cout << "Program continues..." << endl;
+  //  cout << "Program continues..." << endl;
 
     return 0;
 }
