@@ -14,7 +14,7 @@ int main() {
         int result = a / b;
         cout << "Result: " << result << endl;
     }
-    catch (const char* error) {
+    catch (char* error) {
         // 2. Handle the exception
         cout << "Error: " << error << endl;
     }

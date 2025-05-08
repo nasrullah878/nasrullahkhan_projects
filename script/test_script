@@ -4,5 +4,6 @@ echo  enter a and b
 read a
 read b
 sum=$((a+b))
-
+sub=$((a-b))
 echo sum is $sum
+echo "the subtraction is " $sub
