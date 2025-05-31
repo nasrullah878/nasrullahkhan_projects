@@ -1,0 +1,18 @@
+cursor 
+   46  cd ~/Downloads
+   47  ./cursor-0.xx.x-x86_64.AppImage
+   48  ./cursor-0.xx.x-x86_64.AppImage --no-sandbox
+   49  cursor 
+   50  sudo su
+   51  mv 'Cursor-0.50.5-x86_64 (1).AppImage' cursor.appimage
+   52  chmod +x cursor.appimage
+   53  ./cursor.appimage
+   54  sudo apt update
+   55  sudo apt install libfuse2
+   56  ./cursor.appimage --no-sandbox
+   57  sudo mv ~/Downloads/cursor.appimage /opt/cursor.appimage
+   58  sudo ln -s /opt/cursor.appimage /usr/local/bin/cursor
+   59  cursor --no-sandbox
+   60  sudo mv ~/Downloads/cursor.appimage /opt/cursor.appimage
+   61  cursor
+
