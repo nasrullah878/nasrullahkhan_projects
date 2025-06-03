@@ -1,3 +1,4 @@
+#!bin/bash/
 cd ~/Downloads
 ./cursor-0.xx.x-x86_64.AppImage
 ./cursor-0.xx.x-x86_64.AppImage --no-sandbox
