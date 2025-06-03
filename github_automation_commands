@@ -1,0 +1,9 @@
+#this branch is maded by me  
+git checkout maded_branch
+git add .
+git commit -m "Your commit message"
+git push origin maded_branch
+#now switch to main branch which is by default
+git checkout main
+git pull origin main
+git merge master
