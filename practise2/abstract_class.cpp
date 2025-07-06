@@ -31,5 +31,5 @@ int main() {
     Snake s;
 
     d.sound();  // Output: Woof!
-    s.sound();  // Output: Some animal sound
+    s.sound();  // Output: seeks
 }
