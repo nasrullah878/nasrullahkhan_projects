@@ -1,0 +1,16 @@
+name: Send Webhook on Push
+
+on:
+  push:
+    branches:
+      - main  # You can change this to any branch you want
+
+jobs:
+  notify_external_server:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send webhook to my server
+        run: |
+          curl -X POST https://yourdomain.com/webhook-endpoint \
+          -H "Content-Type: application/json" \
+          -d '{"message":"🚀 Code was pushed to main!"}'
